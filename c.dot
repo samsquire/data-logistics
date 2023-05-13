@@ -1,0 +1,10 @@
+digraph G {
+  rankdir="LR";
+  socket;
+  bind;
+  listen;
+  accept;
+  recv;
+  send;
+  socket -> bind -> listen -> accept -> read -> recv -> send;
+}
